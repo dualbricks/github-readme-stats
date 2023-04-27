@@ -3,7 +3,7 @@ import repoCard from "./api/pin.js";
 import langCard from "./api/top-langs.js";
 import wakatimeCard from "./api/wakatime.js";
 import express from "express";
-import dotenv from "dotenv";
+import dotenv, { config } from "dotenv";
 
 dotenv.config();
 const app = express();
